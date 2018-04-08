@@ -1,0 +1,157 @@
+/**********************************************
+*** GENERAL
+**********************************************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} 
+
+body, html {
+  background: url('MM.jpg') no-repeat center;
+  background-size: cover;
+  color: white;
+  height: 100%;
+  font-family: 'tahoma';
+}
+
+.header {
+  height: 50%;
+  width: 60%;
+  margin: 0 auto;
+  transform: translateY(50%);
+  background-color: rgba(86, 96, 117, 0.9);
+  box-shadow: 0 30px 80px 0 rgb(37, 37, 37);
+}
+
+/**********************************************
+*** LEFT SIDE
+**********************************************/
+.details {
+  height: 100%;
+  width: 50%;
+  padding: 20px;
+}
+
+.details hr {
+  width: 75%;
+  margin-left: 20px;
+  border: 1.5px dashed gray;
+  border-style: none none dashed;
+}
+
+.details p {
+  color: #a7b5c9;
+  margin: 40px 20px;
+  text-align: left;
+  font-size: 1.5em;
+} 
+
+.arrow img {
+  width: 10%;
+  float: left;
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+
+.address h1 {
+  margin: 20px;
+  clear: both;
+  font-weight: 100;
+}
+
+.number img {
+  margin-right: 30px;
+}
+
+.number {
+  font-size: 2em;
+  position: relative;
+  top: 15%;
+  margin-left: 20px;
+}
+
+.number a {
+  text-decoration: none;
+  color: white;
+}
+
+/**********************************************
+*** RIGHT SIDE
+**********************************************/
+/*TOP*/
+.review {
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.background {
+  width: 100%;
+  position: relative;
+  top: 10%;
+  right: 10%;
+  height: 100%;
+}
+
+.white {
+  background-color: #fff;
+  height: 60%;
+  position: relative;
+}
+
+#aia {
+  display: block;
+  position: relative;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  margin: 0 auto;
+  box-shadow: 0 2px 10px 0 rgb(48, 46, 47);
+  top: -10%;
+}
+
+.stars {
+  text-align: center;
+  margin: 20px;
+}
+
+/*MIDDLE*/
+.pink textarea.text {
+  position: relative;
+  display: block;
+  width: 90%;
+  height: 60%;
+  top: -35%;
+  background-color: rgb(206, 191, 191);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  resize: none;
+  padding: 10px;
+  border: none;
+  margin: 0 auto;
+}
+
+.text::-webkit-input-placeholder {
+  font-style: italic;
+}
+
+/*BOTTOM*/
+.pink {
+  width: 100%;
+  height: 40%;
+  position: relative;
+  background-color: rgb(233, 42, 90);
+  box-shadow: 0 8px 50px 0 rgb(233, 42, 90);
+  text-align: center;
+}
+
+.send {
+  position: relative;
+  bottom: 5%;
+}
+
+
+
+
